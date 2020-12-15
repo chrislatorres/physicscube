@@ -1,6 +1,3 @@
-import * as THREE from 'three';
-import {renderer, physics, app, appManager} from 'app';
-
 let updateIndex = 0;
 const physicsCube = new THREE.Mesh(new THREE.BoxBufferGeometry(1, 1, 1), new THREE.MeshPhongMaterial({
   color: 0xFF0000,
